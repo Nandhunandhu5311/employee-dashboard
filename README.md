@@ -75,5 +75,5 @@ export default defineConfig([
 ])
 ```
 =======
-# employee-dashboard
->>>>>>> 3c64d1810a9a4b084667ba8232c008e8427e0a5e
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/7530fc24-edd7-46cb-bc41-1aac8bb19772" />
+
