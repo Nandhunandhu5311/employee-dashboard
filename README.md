@@ -1,79 +1,100 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+🚀 Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and functional Employee Management Dashboard built using React.js and TypeScript.
+This project was developed as part of a frontend assignment to demonstrate practical skills in building modern web applications.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🎥 Project Demo: https://youtu.be/AoQP4xxX30Q
 
-## React Compiler
+_** Features**_
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
+🔐 Login page with basic validation (dummy authentication)
+📊 Dashboard displaying employee details in a table
+➕ Add new employee
+✏️ Edit existing employee with pre-filled data
+❌ Delete employee with confirmation prompt
+🔍 Search employees by name or email
+🎯 Filter by department and status
+📄 Pagination (10 records per page)
+📱 Responsive and user-friendly UI
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+React.js
+TypeScript
+React Hooks
+Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+📂 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+src/
+ ├── components/      # Reusable UI components
+ ├── pages/           # Login & Dashboard pages
+ ├── data/            # Mock employee data
+ ├── types/           # TypeScript interfaces
+ ├── App.tsx
+ ├── main.tsx
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+ 
+📌 Key Highlights
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-🌐 Live Demo: (https://youtu.be/AoQP4xxX30Q)
+Clean and organized folder structure
+Reusable components for scalability
+Maintainable and readable code
+State management using React Hooks
+No backend dependency (uses mock data)
 
+
+🧠 What I Learned
+
+Building scalable React applications
+Handling forms and validations
+Managing state effectively using hooks
+Implementing real-world features like search, filtering, and pagination
+Structuring projects for better maintainability
+
+
+⚙️ Installation & Setup
+
+Clone the repository:
+git clone https://github.com/your-username/employee-dashboard.git
+
+Navigate to the project folder:
+
+cd employee-dashboard
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run vite (or) npx vite
+
+Open in browser:
+
+http://localhost:5173
+
+🔐 Login Credentials (Demo)
+
+You can use any email and password to log in (dummy authentication).
+
+Example:
+Email: test@gmail.com
+
+Password: 123456
+
+📸 Screenshots
+
+
+📄 License
+
+This project is created for educational and demonstration purposes only.
+
+🙌 Acknowledgement
+
+This project was developed as part of a frontend assignment to showcase my skills in React and TypeScript development.
