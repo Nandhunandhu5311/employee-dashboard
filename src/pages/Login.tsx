@@ -27,7 +27,7 @@ const Login = () => {
         <div className="text-center mb-6">
           
           <h2 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
-            Employee Login
+            Admin Login
           </h2>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">Welcome back!</p>
         </div>
