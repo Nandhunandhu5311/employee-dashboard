@@ -7,6 +7,7 @@ This project was developed as part of a frontend assignment to demonstrate pract
 
 🎥 Project Demo: https://youtu.be/AoQP4xxX30Q
 
+
 _** Features**_
 
 
@@ -29,6 +30,7 @@ _** Features**_
 📱 Responsive and user-friendly UI
 
 
+
 🛠️ Tech Stack
 
 React.js
@@ -38,6 +40,7 @@ TypeScript
 React Hooks
 
 Vite
+
 
 
 📂 Project Structure
@@ -50,6 +53,7 @@ src/
  ├── types/           # TypeScript interfaces
  ├── App.tsx
  ├── main.tsx
+
 
  
 📌 Key Highlights
@@ -65,6 +69,8 @@ State management using React Hooks
 No backend dependency (uses mock data)
 
 
+
+
 🧠 What I Learned
 
 Building scalable React applications
@@ -78,6 +84,8 @@ Implementing real-world features like search, filtering, and pagination
 Structuring projects for better maintainability
 
 
+
+
 ⚙️ Installation & Setup
 
 Clone the repository:
@@ -85,15 +93,15 @@ git clone https://github.com/your-username/employee-dashboard.git
 
 Navigate to the project folder:
 
-cd employee-dashboard
+#cd employee-dashboard
 
 Install dependencies:
 
-npm install
+#npm install
 
 Run the development server:
 
-npm run vite (or) npx vite
+#npm run vite (or) npx vite
 
 Open in browser:
 
