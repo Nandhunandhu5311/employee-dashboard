@@ -75,5 +75,5 @@ export default defineConfig([
 ])
 ```
 =======
-<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/7530fc24-edd7-46cb-bc41-1aac8bb19772" />
+🌐 Live Demo: (https://youtu.be/AoQP4xxX30Q)
 
