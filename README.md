@@ -11,22 +11,34 @@ _** Features**_
 
 
 🔐 Login page with basic validation (dummy authentication)
+
 📊 Dashboard displaying employee details in a table
+
 ➕ Add new employee
+
 ✏️ Edit existing employee with pre-filled data
+
 ❌ Delete employee with confirmation prompt
+
 🔍 Search employees by name or email
+
 🎯 Filter by department and status
+
 📄 Pagination (10 records per page)
+
 📱 Responsive and user-friendly UI
 
 
 🛠️ Tech Stack
 
 React.js
+
 TypeScript
+
 React Hooks
+
 Vite
+
 
 📂 Project Structure
 
@@ -43,18 +55,26 @@ src/
 📌 Key Highlights
 
 Clean and organized folder structure
+
 Reusable components for scalability
+
 Maintainable and readable code
+
 State management using React Hooks
+
 No backend dependency (uses mock data)
 
 
 🧠 What I Learned
 
 Building scalable React applications
+
 Handling forms and validations
+
 Managing state effectively using hooks
+
 Implementing real-world features like search, filtering, and pagination
+
 Structuring projects for better maintainability
 
 
