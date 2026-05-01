@@ -89,7 +89,7 @@ Structuring projects for better maintainability
 ⚙️ Installation & Setup
 
 Clone the repository:
-git clone https://github.com/your-username/employee-dashboard.git
+git clone (https://github.com/Nandhunandhu5311/employee-dashboard.git)
 
 Navigate to the project folder:
 
