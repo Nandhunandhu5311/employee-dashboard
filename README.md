@@ -119,6 +119,23 @@ Password: 123456
 📸 Screenshots
 
 
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/4cbef347-3304-498f-ad7a-bf99e8d53609" />
+
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/c905629a-991a-462f-91ac-9f36a7378951" />
+
+<img width="1916" height="941" alt="image" src="https://github.com/user-attachments/assets/4b6d24d4-c8e5-456c-9c0c-8a259810d80c" />
+
+
+
+
+
+
+
+
+
+
+
+
 📄 License
 
 This project is created for educational and demonstration purposes only.
